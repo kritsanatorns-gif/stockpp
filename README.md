@@ -2,18 +2,37 @@
 
 เว็บ React + Vite สำหรับยิงบาร์โค้ดเพื่อตรวจสอบสินค้า รองรับ USB barcode scanner ที่ส่งค่าเหมือน keyboard input
 
+
+# StockPP
+
+ระบบจัดการสต็อกสินค้า (Stock Management System)
+
 ## Features
 
-- Login ด้วยรหัสพนักงานก่อนยิงบาร์โค้ด
-- ส่งข้อมูล scan ไป backend แล้วรอ response ก่อนบันทึกลงตาราง
-- ช่อง scan barcode auto focus และรับ Enter จากเครื่องยิงบาร์โค้ด
-- ตรวจ barcode ซ้ำ พร้อม toast แจ้งเตือน
-- แถวสีเขียวสำหรับรายการสำเร็จ และสีแดงสำหรับรายการซ้ำหรือผิดพลาด
-- เสียง beep เมื่อ scan สำเร็จ
-- Search, filter, sort, pagination และ export Excel
-- Dark mode พร้อมบันทึกค่าใน localStorage
-- บันทึกรายการ scan ลง localStorage ด้วย Zustand persist
-- Responsive ใช้ได้ทั้ง desktop และ mobile
+- Login
+- Dashboard
+- Barcode Scan
+- Stock In
+- Stock Out
+- Report
+
+## Technology
+
+- React
+- Vite
+- Material UI
+- JavaScript
+
+## Run Project
+
+```bash
+npm install
+npm run dev
+```
+
+## Author
+
+Kritsanatorn
 
 ## Backend API
 
