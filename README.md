@@ -1,7 +1,7 @@
 # StockPP Barcode Stock Checker
 
 เว็บ React + Vite สำหรับยิงบาร์โค้ดเพื่อตรวจสอบสินค้า รองรับ USB barcode scanner ที่ส่งค่าเหมือน keyboard input
-
+## Login Feature
 
 # StockPP
 
