@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.rdt_TableHeadRow,
+.rdt_TableRow {
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .rdt_TableCell,
+  .rdt_TableCol {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
